@@ -224,10 +224,10 @@
         <h2 class="text-4xl font-bold mb-3">Featured Bikes In This Year</h2>
         <p class="text-bike-primary">Best bike collection</p>
         <hr class="w-20 border mx-auto border-bike-primary">
-        <div class="flex flex-col md:flex-row justify-between gap-8 mt-20">
-          <img src="./images/others/feature-bike.png" alt="">
-          <img src="./images/others/feature-bike.png" alt="">
-          <img src="./images/others/feature-bike.png" alt="">
+        <div class="flex flex-col md:flex-row justify-between gap-10 mt-20 overflow-hidden">
+          <img class="w-full" src="./images/others/feature-bike.png" alt="">
+          <img class="w-full" src="./images/others/feature-bike.png" alt="">
+          <img class="w-full" src="./images/others/feature-bike.png" alt="">
         </div>
       </section>
 
@@ -447,5 +447,30 @@
           </div>
          </section>
     </main>
+
+    <footer class="mt-24 bg-[#0B0D17] py-8">
+      <div class="footer text-neutral-content container mx-auto">
+        <aside>
+          <div class="flex gap-2">
+            <button class="btn">Download Now</button>
+          <button class="btn">License</button>
+          </div>
+          <nav class="grid grid-flow-col gap-4 my-5">
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+          </nav>
+          <p>Copyright ©  - All right reserved by ACME Industries Ltd</p>
+        </aside>
+        <nav>
+          <h6 class="footer-title">Get the app</h6>
+          <div class="">
+            <img class="w-1/2 mb-2" src="./images/others/android.png" alt="">
+            <img class="w-1/2 mb-2" src="./images/others/ios.png" alt="">
+          </div>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
